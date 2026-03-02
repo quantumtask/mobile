@@ -974,7 +974,7 @@ textarea{border-radius:14px}
 }
 .faq-accordion summary::-webkit-details-marker{display:none;}
 .faq-accordion summary::after{
-  content:'â–¾';
+  content:'\25BE';
   margin-left:auto;
   font-size:.8rem;
   color:#6b7280;
@@ -1148,7 +1148,7 @@ textarea{border-radius:14px}
 }
 .service-proof-section .faq-accordion summary::after,
 .service-proof-section .faq-list summary::after{
-  content:'â€º';
+  content:'\203A';
   margin-left:auto;
   font-size:.9rem;
   color:#6b7280;
@@ -1461,7 +1461,7 @@ textarea{border-radius:14px}
   line-height:1.6;
 }
 .proof-list li::before{
-  content:'âœ“';
+  content:'\2713';
   position:absolute;
   left:0;
   color:#2563eb;
@@ -1589,7 +1589,7 @@ textarea{border-radius:14px}
   line-height:1.5;
 }
 #packages .meta-bullets li::before{
-  content:'âœ“';
+  content:'\2713';
   position:absolute;
   left:0;
   top:0.15rem;
@@ -1760,7 +1760,7 @@ textarea{border-radius:14px}
   color:#374151;
 }
 .payment-list li::before{
-  content:'â€¢';
+  content:'\2022';
   position:absolute;
   left:0;
   color:var(--primary);
@@ -1844,7 +1844,7 @@ textarea{border-radius:14px}
   color:#374151;
 }
 .price-list.included-list li::before{
-  content:'âœ“';
+  content:'\2713';
   color:var(--primary);
   font-weight:700;
   position:absolute;
