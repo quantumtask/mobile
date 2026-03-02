@@ -52,9 +52,11 @@
 
     .page-home .hero .hero-bg{
       background:
-        linear-gradient(145deg, rgba(2,10,24,.5) 0%, rgba(3,14,32,.6) 52%, rgba(5,18,39,.64) 100%),
-        url("images/hero-tech-internet-4.jpg?v=2") center/cover no-repeat !important;
-      background-blend-mode:normal;
+        linear-gradient(148deg, rgba(3,14,33,.72) 0%, rgba(4,18,41,.74) 52%, rgba(6,24,52,.78) 100%),
+        radial-gradient(720px 300px at 14% 10%, rgba(56,189,248,.16) 0%, rgba(56,189,248,0) 72%),
+        radial-gradient(780px 320px at 84% 14%, rgba(37,99,235,.16) 0%, rgba(37,99,235,0) 74%),
+        url("images/hero-tech-internet-4.jpg?v=3") center 58%/cover no-repeat !important;
+      background-blend-mode:normal,screen,screen,normal;
       filter:none;
       border-bottom:1px solid rgba(125,211,252,.24);
       animation:none !important;
@@ -94,15 +96,16 @@
       inset:0;
       pointer-events:none;
       z-index:0;
-      opacity:.1;
+      opacity:.08;
       background:
-        radial-gradient(720px 320px at 18% 0%, rgba(45,212,191,.12) 0%, transparent 74%),
-        radial-gradient(820px 360px at 82% 6%, rgba(34,211,238,.1) 0%, transparent 78%);
+        repeating-linear-gradient(90deg, rgba(148,163,184,.05) 0 1px, transparent 1px 64px),
+        repeating-linear-gradient(0deg, rgba(148,163,184,.04) 0 1px, transparent 1px 64px),
+        radial-gradient(900px 340px at 50% 0%, rgba(14,165,233,.12) 0%, transparent 74%);
       mix-blend-mode:normal;
     }
 
     body.page-home .qt-nano-field{
-      opacity:.2 !important;
+      opacity:.12 !important;
     }
 
     .page-home .hero-title{
@@ -183,11 +186,11 @@
 
     @media (max-width: 900px){
       .page-home .hero::before{
-        opacity:.12;
+        opacity:.1;
       }
 
       body.page-home .qt-nano-field{
-        opacity:.14 !important;
+        opacity:.08 !important;
       }
     }
   </style>
@@ -321,7 +324,7 @@
 
   <!-- HERO -->
   <section class="hero hero--home">
-    <div class="hero-bg" style="background:linear-gradient(145deg, rgba(2,10,24,.28) 0%, rgba(3,14,32,.38) 48%, rgba(5,18,39,.44) 100%), url('images/hero-tech-internet-4.jpg?v=2') center/cover no-repeat;"></div>
+    <div class="hero-bg" style="background:linear-gradient(148deg, rgba(3,14,33,.72) 0%, rgba(4,18,41,.74) 52%, rgba(6,24,52,.78) 100%), radial-gradient(720px 300px at 14% 10%, rgba(56,189,248,.16) 0%, rgba(56,189,248,0) 72%), radial-gradient(780px 320px at 84% 14%, rgba(37,99,235,.16) 0%, rgba(37,99,235,0) 74%), url('images/hero-tech-internet-4.jpg?v=3') center 58%/cover no-repeat;"></div>
 
     <div class="hero-inner">
       <div class="hero-left">
