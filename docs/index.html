@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="color-scheme" content="only light" />
   <meta name="supported-color-schemes" content="light" />
-  <meta name="description" content="QuantumTask builds conversion-focused websites for service businesses in South Africa. Fast launch, clear messaging, and more quote requests." />
+  <meta name="description" content="QuantumTask builds high-converting websites for service businesses in South Africa. Launch in ~48 hours, clear offer positioning, and more quote requests." />
   <meta name="author" content="QuantumTask" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://quantumtask.io/" />
 
   <meta property="og:title" content="Web Design for Service Businesses in South Africa | QuantumTask" />
-  <meta property="og:description" content="QuantumTask builds conversion-focused websites for service businesses in South Africa. Fast launch, clear messaging, and more quote requests." />
+  <meta property="og:description" content="QuantumTask builds high-converting websites for service businesses in South Africa. Launch in ~48 hours and turn more visitors into quote requests." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://quantumtask.io/" />
   <meta property="og:site_name" content="QuantumTask" />
@@ -22,20 +22,169 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Web Design for Service Businesses in South Africa | QuantumTask" />
-  <meta name="twitter:description" content="QuantumTask builds conversion-focused websites for service businesses in South Africa. Fast launch, clear messaging, and more quote requests." />
+  <meta name="twitter:description" content="QuantumTask builds high-converting websites for service businesses in South Africa. Launch in ~48 hours and turn more visitors into quote requests." />
   <meta name="twitter:image" content="https://quantumtask.io/images/logo.png" />
   <meta name="twitter:url" content="https://quantumtask.io/" />
   <!-- deploy-check: 2026-02-11 -->
 
   <meta name="theme-color" content="#ffffff" />
   <link rel="stylesheet" href="style.css?v=3" />
-  <link rel="stylesheet" href="assets/css/site.css?v=20260212" />
+  <link rel="stylesheet" href="assets/css/site.css?v=20260302perf23" />
   <!-- Set the theme color for supported browsers to match the dark brand background -->
   <link rel="icon" type="image/png" href="images/logo.png" />
 
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style id="home-tech-refresh">
+    .page-home .nav{
+      background:linear-gradient(120deg, rgba(6,20,43,.94) 0%, rgba(11,34,69,.92) 52%, rgba(17,52,96,.92) 100%) !important;
+      border-bottom:1px solid rgba(125,211,252,.34) !important;
+      box-shadow:0 12px 30px rgba(2,8,21,.44) !important;
+      backdrop-filter:blur(8px) saturate(1.15);
+      -webkit-backdrop-filter:blur(8px) saturate(1.15);
+    }
+
+    .page-home .hero{
+      position:relative;
+      isolation:isolate;
+    }
+
+    .page-home .hero .hero-bg{
+      background:
+        linear-gradient(145deg, rgba(2,10,24,.28) 0%, rgba(3,14,32,.38) 48%, rgba(5,18,39,.44) 100%),
+        url("images/hero-tech-internet-4.jpg?v=2") center/cover no-repeat !important;
+      background-blend-mode:normal;
+      filter:none;
+      border-bottom:1px solid rgba(125,211,252,.24);
+      animation:none !important;
+    }
+
+    .page-home .hero .hero-bg::before,
+    .page-home .hero .hero-bg::after{
+      content:none !important;
+      background:none !important;
+      display:none !important;
+    }
+
+    body.page-home,
+    body.page-home main{
+      background:
+        radial-gradient(1200px 520px at -8% -12%, rgba(37,99,235,.22) 0%, transparent 62%),
+        radial-gradient(980px 460px at 108% -8%, rgba(14,165,233,.18) 0%, transparent 64%),
+        linear-gradient(180deg, #f1f7ff 0%, #e7f0ff 100%) !important;
+    }
+
+    .page-home .section{
+      position:relative;
+      background:linear-gradient(180deg, rgba(247,251,255,.84) 0%, rgba(236,245,255,.9) 100%);
+      border-top:1px solid rgba(125,211,252,.2);
+      border-bottom:1px solid rgba(125,211,252,.12);
+    }
+
+    .page-home .section.section-alt{
+      background:
+        linear-gradient(180deg, rgba(238,247,255,.92) 0%, rgba(229,241,255,.96) 100%),
+        radial-gradient(760px 300px at 100% 0%, rgba(14,165,233,.1) 0%, transparent 72%);
+    }
+
+    .page-home .hero::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      pointer-events:none;
+      z-index:0;
+      opacity:.18;
+      background:
+        radial-gradient(680px 340px at 14% 0%, rgba(45,212,191,.2) 0%, transparent 72%),
+        radial-gradient(780px 340px at 84% 4%, rgba(34,211,238,.18) 0%, transparent 74%),
+        repeating-linear-gradient(90deg, rgba(148,163,184,.08) 0 1px, transparent 1px 30px),
+        repeating-linear-gradient(0deg, rgba(148,163,184,.08) 0 1px, transparent 1px 30px);
+      mix-blend-mode:screen;
+    }
+
+    .page-home .hero-title{
+      background:linear-gradient(180deg, #f5fbff 0%, #d9eeff 52%, #a7d7ff 100%);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent !important;
+      text-shadow:0 12px 30px rgba(14,165,233,.2);
+      letter-spacing:-.02em;
+    }
+
+    .page-home .hero-sub,
+    .page-home .hero-payment,
+    .page-home .hero-note{
+      color:#d7e8fb !important;
+    }
+
+    .page-home .meta-pill{
+      background:linear-gradient(145deg, rgba(7,20,46,.75) 0%, rgba(9,25,55,.62) 100%) !important;
+      border:1px solid rgba(125,211,252,.38) !important;
+      box-shadow:0 16px 38px rgba(2,10,27,.46), inset 0 0 0 1px rgba(56,189,248,.14) !important;
+    }
+
+    .page-home .hero-card{
+      background:linear-gradient(165deg, rgba(7,21,46,.9) 0%, rgba(10,28,63,.84) 100%) !important;
+      border:1px solid rgba(125,211,252,.4) !important;
+      box-shadow:0 22px 52px rgba(2,10,30,.52), 0 0 0 1px rgba(56,189,248,.14) !important;
+    }
+
+    .page-home .hero-card h3,
+    .page-home .hero-card p,
+    .page-home .hero-card small,
+    .page-home .hero-card label{
+      color:#e6f3ff !important;
+    }
+
+    .page-home .hero-card input,
+    .page-home .hero-card textarea,
+    .page-home .hero-card select{
+      background:rgba(8,23,49,.78) !important;
+      border:1px solid rgba(125,211,252,.35) !important;
+      color:#e9f4ff !important;
+    }
+
+    .page-home .hero-card input::placeholder,
+    .page-home .hero-card textarea::placeholder{
+      color:#b6d4f5 !important;
+    }
+
+    .page-home .btn-primary,
+    .page-home .nav-cta{
+      background:linear-gradient(135deg, #1d4ed8 0%, #0ea5e9 100%) !important;
+      border:1px solid rgba(147,197,253,.7) !important;
+      box-shadow:0 12px 26px rgba(14,165,233,.24), 0 4px 0 rgba(22,78,161,.5) !important;
+      color:#edf7ff !important;
+    }
+
+    .page-home .btn-ghost,
+    .page-home .btn-outline{
+      background:linear-gradient(180deg, rgba(7,20,46,.7) 0%, rgba(10,26,58,.62) 100%) !important;
+      border:1px solid rgba(125,211,252,.4) !important;
+      color:#d6ebff !important;
+    }
+
+    .page-home .card,
+    .page-home .price-card,
+    .page-home .meta-card,
+    .page-home .proof-card,
+    .page-home .faq-item,
+    .page-home .how-step,
+    .page-home .service-card,
+    .page-home .svc-card,
+    .page-home .contact-form,
+    .page-home .contact-right{
+      border-color:rgba(125,211,252,.3) !important;
+      box-shadow:0 12px 28px rgba(8,26,54,.16), 0 0 0 1px rgba(56,189,248,.08) !important;
+    }
+
+    @media (max-width: 900px){
+      .page-home .hero::before{
+        opacity:.2;
+      }
+    }
+  </style>
 
   <script type="application/ld+json">
     {
@@ -166,12 +315,12 @@
 
   <!-- HERO -->
   <section class="hero hero--home">
-    <div class="hero-bg"></div>
+    <div class="hero-bg" style="background:linear-gradient(145deg, rgba(2,10,24,.28) 0%, rgba(3,14,32,.38) 48%, rgba(5,18,39,.44) 100%), url('images/hero-tech-internet-4.jpg?v=2') center/cover no-repeat;"></div>
 
     <div class="hero-inner">
       <div class="hero-left">
         <h1 class="hero-title">
-          Your website live in ~48 hours and built to convert.
+          High-converting service website live in ~48 hours.
         </h1>
 
         <p class="hero-sub">
@@ -179,16 +328,16 @@
         </p>
 
         <div class="hero-actions">
-          <a href="mailto:daniel@quantumtask.io" class="btn btn-primary slide-item">Free quote</a>
+          <a href="mailto:daniel@quantumtask.io" class="btn btn-primary slide-item">Get a free quote</a>
           <a href="#packages" class="btn btn-ghost slide-item">View packages</a>
         </div>
         <p class="hero-payment">
-          Payment: 50% upfront, 50% on go-live. Direct WhatsApp/call support and quote-first approach.
+          Payment is simple: 50% upfront, 50% on go-live. Direct WhatsApp/call support throughout.
         </p>
 
         <div class="hero-meta">
           <div class="meta-pill">
-            <span class="meta-label slide-item">Built for local service businesses that need calls and quote requests</span>
+            <span class="meta-label slide-item">Built for local service businesses that need more calls and quote requests</span>
             <span class="meta-list slide-item">
               <a href="plumbers.html" style="color:inherit;text-decoration:none;">Plumbers</a> <span class="meta-dot">•</span>
               <a href="electricians.html" style="color:inherit;text-decoration:none;">Electricians</a> <span class="meta-dot">•</span>
@@ -202,15 +351,15 @@
         </div>
 
         <p class="hero-note">
-          Most service websites look fine and still do not convert. We write the message, structure the page, and make the next step obvious so visitors actually contact you.
+          Most service websites look fine but still do not convert. We clarify your offer, structure the page for trust, and make the next step obvious so visitors contact you.
         </p>
       </div>
 
       <div class="hero-right">
         <div class="hero-card">
-          <h3 class="booking-title">Get your quote in 24 hours</h3>
+          <h3 class="booking-title">Get your custom quote in 24 hours</h3>
           <p class="booking-sub">
-            Tell me what you do and what you need. If it's a good fit, I'll reply with the best package and timeline. No pressure.
+            Tell me what you do and what you need. If we are a good fit, I will send the best package and launch timeline. No pressure.
           </p>
 
           <form>
@@ -221,7 +370,7 @@
           </form>
 
           <p class="hero-card-note">
-            Prefer to talk? I'll email you a calendar link.
+            Prefer to talk first? I'll send a calendar link.
           </p>
         </div>
       </div>
@@ -234,7 +383,7 @@
       <div class="section-header">
         <span class="section-label">Browse by trade</span>
         <h2>Pick your service and get a tailored site</h2>
-        <p class="section-intro">Choose a trade to see packages and examples tailored to your business.</p>
+        <p class="section-intro">Choose your trade to view tailored packages, page structure, and demo examples.</p>
       </div>
         <div class="trade-picker">
           <div class="trade-chips trade-links" role="tablist" aria-label="Trades">
@@ -260,7 +409,7 @@
         <span class="section-label">The problem</span>
         <h2>Why most service websites don't get enquiries</h2>
         <p class="section-intro">
-          Most service websites are either generic templates or brochure pages with no clear offer. They hide the important details, show no proof, and make it hard to contact you - so visitors bounce and call the next business. We build sites that answer the real questions fast and push people to take action.
+          Most service websites are either generic templates or brochure pages with no clear offer. They hide key details, show little proof, and make contact harder than it should be. Visitors leave and call the next business. We build pages that answer the right questions quickly and guide visitors to take action.
         </p>
       </div>
 
@@ -299,7 +448,7 @@
         <span class="section-label">How it works</span>
         <h2>How it works</h2>
         <p class="section-intro">
-          No complicated meetings. Clear scope. Fast turnaround.
+          Simple steps. Clear scope. Fast delivery.
         </p>
       </div>
 
@@ -313,7 +462,7 @@
           </div>
           <span class="step-number">1</span>
           <h3>Send details</h3>
-          <p>Share your services, service area, and contact info using the form or WhatsApp.</p>
+          <p>Share your services, area served, and contact details by form or WhatsApp.</p>
         </div>
         <div class="card how-step">
           <div class="step-icon">
@@ -326,7 +475,7 @@
           </div>
           <span class="step-number">2</span>
           <h3>I build and share draft</h3>
-          <p>You get a working draft quickly so you can review and request revisions.</p>
+          <p>You get a working draft quickly so you can review and request focused revisions.</p>
         </div>
         <div class="card how-step">
           <div class="step-icon">
@@ -336,7 +485,7 @@
           </div>
           <span class="step-number">3</span>
           <h3>Launch/support</h3>
-          <p>We launch, then I handle updates or move you to ongoing care if needed.</p>
+          <p>Once approved, we launch. Then I handle updates or move you to ongoing care if needed.</p>
         </div>
       </div>
     </div>
@@ -349,7 +498,7 @@
         <span class="section-label">Packages</span>
         <h2>Simple pricing. Built to convert.</h2>
         <p class="section-intro">
-          Pick the package that matches where your service business is right now. Same approach either way: fast, clear, and designed to generate enquiries.
+          Pick the package that matches your stage right now. Every option follows the same approach: clear offer, fast delivery, and conversion-focused structure.
         </p>
         <p class="section-support">Service Terms apply to all paid work. <a href="service-terms.html">Read the Service Terms.</a></p>
       </div>
@@ -365,15 +514,15 @@
               </svg>
             </div>
             <div class="meta-titles">
-              <h3>Founder-led by Daniel and Co-founder Christo</h3>
-              <p class="meta-sub">Fast turnaround, local-first, performance guaranteed.</p>
+              <h3>Founder-led team: Daniel and Christo</h3>
+              <p class="meta-sub">Hands-on delivery, local-first strategy, and performance accountability.</p>
             </div>
           </div>
           <ul class="meta-bullets">
-            <li>South Africa: Johannesburg &middot; Pretoria &middot; Cape Town &middot; Durban</li>
-            <li>48-hour launch once assets arrive (one-page/full builds)</li>
-            <li>WhatsApp/calls with a quote-first approach</li>
-            <li>90+ Performance score on Google PageSpeed Insights (mobile) &mdash; or we keep working until it hits 90+ at no extra cost.</li>
+            <li>South Africa coverage: Johannesburg &middot; Pretoria &middot; Cape Town &middot; Durban</li>
+            <li>~48-hour launch once assets are received (one-page and full builds)</li>
+            <li>Direct founder support on WhatsApp and calls from quote to go-live</li>
+            <li>90+ Performance score on Google PageSpeed Insights (mobile) at launch &mdash; or we keep optimizing at no extra cost</li>
           </ul>
         </div>
 
@@ -387,14 +536,14 @@
               </svg>
             </div>
             <div class="meta-titles">
-              <h3>How payment works</h3>
-              <p class="meta-sub">Simple milestones. No hidden fees.</p>
+              <h3>Payment milestones</h3>
+              <p class="meta-sub">Simple structure, transparent scope, no hidden fees.</p>
             </div>
           </div>
           <ul class="meta-bullets payment-list">
-            <li>50% deposit to start</li>
-            <li>50% due on go-live</li>
-            <li>Guarantee: 90+ Performance score on Google PageSpeed Insights (mobile) for the homepage at launch &mdash; we keep working until it hits 90+ at no extra cost.</li>
+            <li>50% deposit to secure your build slot and start production</li>
+            <li>50% due on go-live after final review and handover</li>
+            <li>Guarantee: 90+ Performance score on Google PageSpeed Insights (mobile) for the homepage at launch &mdash; we keep working until it hits 90+ at no extra cost</li>
           </ul>
         </div>
 
@@ -407,13 +556,13 @@
               </svg>
             </div>
             <div class="meta-titles">
-              <h3>Intro slots</h3>
-              <p class="meta-sub">Limited discounted slots for early clients.</p>
+              <h3>Intro offer (5 slots)</h3>
+              <p class="meta-sub">Limited discounted onboarding for early service businesses.</p>
             </div>
           </div>
           <ul class="meta-bullets">
-            <li>Intro pricing reserved for the next 5 local service businesses.</li>
-            <li>After that, package prices increase.</li>
+            <li>Intro pricing is reserved for the next 5 confirmed local service businesses.</li>
+            <li>Once those slots are filled, standard package pricing applies.</li>
           </ul>
         </div>
       </div>
@@ -456,7 +605,7 @@
         <div class="card price-card price-featured" data-pack-card>
           <div class="price-tag">Most popular</div>
           <h3>Full Site Build</h3>
-          <p class="price">R2499</p>
+          <p class="price">R2500</p>
           <p class="price-sub">Best if you're serious about growth and want a full web presence that builds trust and wins higher-value jobs.</p>
 
           <div class="price-compare">
@@ -485,7 +634,7 @@
             <li>Light copywriting included based on your info. If you want full rewrite/brand messaging, request a quote.</li>
           </ul>
 
-          <a href="mailto:daniel@quantumtask.io" class="btn btn-primary full">Get the R2499 full site</a>
+          <a href="mailto:daniel@quantumtask.io" class="btn btn-primary full">Get the R2500 full site</a>
         </div>
 
         <div class="card price-card" data-pack-card>
@@ -651,13 +800,13 @@
           <h2>Let's build a site that brings in enquiries</h2>
         </div>
         <p class="section-intro">
-          I'll reply within 24 hours with the best package, timeline, and next steps.
+          I will reply within 24 hours with the best package, realistic timeline, and clear next steps.
         </p>
       </div>
 
       <div class="contact-right">
-        <h3>Get a quote</h3>
-        <p>I'll reply within 24 hours with the best package, timeline, and next steps.</p>
+        <h3>Get a free quote</h3>
+        <p>Share your details below. I will reply personally within 24 hours.</p>
         <form class="card contact-form" action="https://formsubmit.co/daniel@quantumtask.io" method="post">
           <input type="hidden" name="_subject" value="New quantumtask.io website enquiry">
           <input type="hidden" name="_template" value="table">
@@ -700,7 +849,7 @@
           <a class="btn btn-ghost full whatsapp-fastlane whatsapp-cta" href="https://wa.me/27840906474?text=Hi%20QuantumTask%2C%20I%27m%20interested%20in%20a%20website%20for%20my%20business.%0A%0ABusiness%20name%3A%0AService%20type%3A%0AArea%20served%3A%0AMain%20goal%20(calls%2Fquotes%2Fbookings)%3A%0A%0APlease%20share%20the%20best%20package%20and%20timeline." rel="noopener noreferrer">Prefer WhatsApp? Message me</a>
           <ul class="contact-trust">
             <li>24-hour personal reply</li>
-            <li>Fixed pricing (R949 / R2499)</li>
+            <li>Fixed package pricing (R949 / R2500)</li>
             <li>50% deposit, 50% on go-live</li>
             <li>90+ Performance score on Google PageSpeed Insights (mobile) at launch</li>
           </ul>
@@ -760,7 +909,7 @@
   <div class="footer-bottom">&copy; 2026 QuantumTask &mdash; Websites built to convert</div>
 </footer>
 
-<script defer src="assets/js/pricing-animate.js?v=20260212"></script>
+<script defer src="assets/js/pricing-animate.js?v=20260302perf23"></script>
 <script>
   // contact badges slide in
   const contactMeta = document.querySelector('.contact-right .contact-meta');
@@ -856,49 +1005,25 @@
   if (howSection) {
     const minScale = 1;
     const maxScale = window.matchMedia('(max-width: 900px)').matches ? 1.32 : 1.2;
+    let howRaf = null;
     const updateHowBg = () => {
+      howRaf = null;
       const rect = howSection.getBoundingClientRect();
       const viewH = window.innerHeight || document.documentElement.clientHeight;
       const progress = Math.min(Math.max(0, (viewH - rect.top) / (viewH + rect.height)), 1);
       const scale = minScale + (maxScale - minScale) * progress;
       howSection.style.setProperty('--how-bg-scale', scale.toFixed(3));
     };
-    updateHowBg();
-    window.addEventListener('scroll', updateHowBg, { passive: true });
-    window.addEventListener('resize', updateHowBg);
+    const queueHowBg = () => {
+      if (howRaf) return;
+      howRaf = requestAnimationFrame(updateHowBg);
+    };
+    queueHowBg();
+    window.addEventListener('scroll', queueHowBg, { passive: true });
+    window.addEventListener('resize', queueHowBg, { passive: true });
   }
 </script>
 
 <!-- BUILD_ID: a5002b5 -->
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
