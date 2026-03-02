@@ -52,7 +52,7 @@
 
     .page-home .hero .hero-bg{
       background:
-        linear-gradient(145deg, rgba(2,10,24,.28) 0%, rgba(3,14,32,.38) 48%, rgba(5,18,39,.44) 100%),
+        linear-gradient(145deg, rgba(2,10,24,.5) 0%, rgba(3,14,32,.6) 52%, rgba(5,18,39,.64) 100%),
         url("images/hero-tech-internet-4.jpg?v=2") center/cover no-repeat !important;
       background-blend-mode:normal;
       filter:none;
@@ -94,13 +94,15 @@
       inset:0;
       pointer-events:none;
       z-index:0;
-      opacity:.18;
+      opacity:.1;
       background:
-        radial-gradient(680px 340px at 14% 0%, rgba(45,212,191,.2) 0%, transparent 72%),
-        radial-gradient(780px 340px at 84% 4%, rgba(34,211,238,.18) 0%, transparent 74%),
-        repeating-linear-gradient(90deg, rgba(148,163,184,.08) 0 1px, transparent 1px 30px),
-        repeating-linear-gradient(0deg, rgba(148,163,184,.08) 0 1px, transparent 1px 30px);
-      mix-blend-mode:screen;
+        radial-gradient(720px 320px at 18% 0%, rgba(45,212,191,.12) 0%, transparent 74%),
+        radial-gradient(820px 360px at 82% 6%, rgba(34,211,238,.1) 0%, transparent 78%);
+      mix-blend-mode:normal;
+    }
+
+    body.page-home .qt-nano-field{
+      opacity:.2 !important;
     }
 
     .page-home .hero-title{
@@ -181,7 +183,11 @@
 
     @media (max-width: 900px){
       .page-home .hero::before{
-        opacity:.2;
+        opacity:.12;
+      }
+
+      body.page-home .qt-nano-field{
+        opacity:.14 !important;
       }
     }
   </style>
