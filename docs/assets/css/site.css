@@ -5,3 +5,31 @@
 @media (prefers-reduced-motion: reduce){
   [data-pack-card]{opacity:1;transform:none;transition:none;}
 }
+
+/* Bottom-section cleanup: keep the contact wrapper neutral and align footer columns. */
+#contact .contact-right{
+  background:transparent;
+  border:0;
+  box-shadow:none;
+  padding:0;
+  overflow:visible;
+}
+
+#contact .contact-form{
+  margin-top:.4rem;
+}
+
+.site-footer .footer-columns{
+  align-items:start;
+}
+
+.site-footer .footer-col{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:.2rem;
+}
+
+.site-footer .footer-col a{
+  display:block;
+}

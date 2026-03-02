@@ -1,4 +1,4 @@
-html{scroll-padding-top:120px;}
+﻿html{scroll-padding-top:120px;}
 :root{
   color-scheme: only light;
   --bg:#020617;
@@ -180,10 +180,10 @@ ul, ol{
   text-align:center;
 }
 /*
-  Navigation call‑to‑action button
+  Navigation callâ€‘toâ€‘action button
   --------------------------------
   Make the navigation CTA consistent with other primary actions by
-  applying the same blue‑to‑light‑blue gradient used for
+  applying the same blueâ€‘toâ€‘lightâ€‘blue gradient used for
   `.btn-primary`. On hover we subtly darken the gradient for a
   responsive feel. We also remove the default outline styling since
   this CTA should look like a filled button instead of an outline.
@@ -211,7 +211,7 @@ ul, ol{
   Mobile menu components
   ----------------------
   The mobile navigation consists of a kebab (three-dot) button that
-  toggles an off‑canvas panel sliding in from the right. On small
+  toggles an offâ€‘canvas panel sliding in from the right. On small
   screens, the standard nav links are hidden and this button appears.
 */
 /* Kebab menu button */
@@ -268,7 +268,7 @@ ul, ol{
 .mobile-menu-button.open::after{
   transform:translate(-50%,-50%) rotate(-45deg);
 }
-/* Off‑canvas mobile menu panel */
+/* Offâ€‘canvas mobile menu panel */
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -642,7 +642,7 @@ textarea{border-radius:14px}
   Section header enhancements
   --------------------------
   Section headings should stand out without resorting to overly large
-  background numbers. We use a small uppercase label (“eyebrow” text)
+  background numbers. We use a small uppercase label (â€œeyebrowâ€ text)
   above the h2 and a subtle background highlight behind the h2. This
   improves readability and hierarchy on light backgrounds while
   avoiding the intrusive numbered design.
@@ -974,7 +974,7 @@ textarea{border-radius:14px}
 }
 .faq-accordion summary::-webkit-details-marker{display:none;}
 .faq-accordion summary::after{
-  content:'▾';
+  content:'â–¾';
   margin-left:auto;
   font-size:.8rem;
   color:#6b7280;
@@ -991,7 +991,7 @@ textarea{border-radius:14px}
   color:#4b5563;
   line-height:1.5;
 }
-/* TRADE CHIPS – FINAL OVERRIDE */
+/* TRADE CHIPS â€“ FINAL OVERRIDE */
 .trade-picker{
   max-width: 980px;
   margin: 22px auto 0;
@@ -1148,7 +1148,7 @@ textarea{border-radius:14px}
 }
 .service-proof-section .faq-accordion summary::after,
 .service-proof-section .faq-list summary::after{
-  content:'›';
+  content:'â€º';
   margin-left:auto;
   font-size:.9rem;
   color:#6b7280;
@@ -1461,7 +1461,7 @@ textarea{border-radius:14px}
   line-height:1.6;
 }
 .proof-list li::before{
-  content:'✓';
+  content:'âœ“';
   position:absolute;
   left:0;
   color:#2563eb;
@@ -1589,7 +1589,7 @@ textarea{border-radius:14px}
   line-height:1.5;
 }
 #packages .meta-bullets li::before{
-  content:'✓';
+  content:'âœ“';
   position:absolute;
   left:0;
   top:0.15rem;
@@ -1760,7 +1760,7 @@ textarea{border-radius:14px}
   color:#374151;
 }
 .payment-list li::before{
-  content:'•';
+  content:'â€¢';
   position:absolute;
   left:0;
   color:var(--primary);
@@ -1844,7 +1844,7 @@ textarea{border-radius:14px}
   color:#374151;
 }
 .price-list.included-list li::before{
-  content:'✓';
+  content:'âœ“';
   color:var(--primary);
   font-weight:700;
   position:absolute;
@@ -2024,7 +2024,7 @@ textarea{border-radius:14px}
   padding-left:1.2rem;
 }
 .contact-trust li::before{
-  content:'✓';
+  content:'\2713';
   position:absolute;
   left:0;
   color:#2563eb;
@@ -2049,14 +2049,14 @@ textarea{border-radius:14px}
   display:none;
 }
 .quote-details summary::after{
-  content:'▾';
+  content:'\25BE';
   margin-left:auto;
   font-size:0.8rem;
   color:#6b7280;
   transition:transform .2s ease;
 }
 .quote-details[open] summary::after{
-  content:'▴';
+  content:'\25BE';
   transform:rotate(180deg);
 }
 .quote-details .form-group{
@@ -2118,7 +2118,7 @@ textarea{border-radius:14px}
   line-height: 1.5;
 }
 .contact-meta span::before {
-  content: '✓';
+  content: '\2713';
   color: #fff;
   background: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%);
   font-weight: 700;
